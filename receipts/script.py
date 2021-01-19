@@ -12,6 +12,7 @@ luxurious_lamp_price = 52.15
 sales_tax = .088
 
 # First Customer
+customer_name = input("What is your name?")
 customer_one_total = 0
 customer_one_itemization = ""
 
@@ -28,7 +29,7 @@ customer_one_tax = customer_one_total * sales_tax
 customer_one_total += customer_one_tax
 
 # Printing up their receipt! 
-print("Customer One Items:")
+print("Customer" + " " + customer_name + " " + "Items:")
 print(customer_one_itemization)
 print("Customer One Total:")
 print(customer_one_total)
