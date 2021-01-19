@@ -2,3 +2,4 @@
 
 1. Hello World projects:
   - Block letters
+  - Create Purchasing Information and Receipts for Lovely Loveseats
